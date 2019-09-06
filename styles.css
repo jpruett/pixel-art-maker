@@ -1,0 +1,60 @@
+.container {
+    background-color: grey;
+    border-radius: 6px;
+    box-shadow: 8px 8px 10px #999;
+    margin-bottom:30px;
+    padding: 2px
+}
+
+.canvas {
+    display: flex;
+}
+
+.pixel {
+    flex-grow: 2;
+    height: 20px;
+    width: 20px;
+    flex-grow:1;
+    margin:1px 1px;
+    background-color: white;
+}
+
+.palette {
+    display: flex;
+}
+
+.swatch {
+    height: 30px;
+    width:  30px;
+    border-radius: 15px;
+    border: 1px #444 solid;
+    margin-right: 3px;
+}
+
+.selectedColor{
+    width: 30px;
+    border: 2px grey solid;
+    height: 20px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    background-color: black;
+    border: 1px #000 solid;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.flexbox div {
+    flex-wrap: nowrap;
+}
+
+.brushcolor {
+    font-family: Verdana;
+    font-size: 14px;
+    color: white;
+}
+
+.saveBtn {
+    float:right;
+}
